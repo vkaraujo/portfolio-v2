@@ -1,0 +1,17 @@
+{
+  "hero": {
+    "title": "Viktor Araujo",
+    "subtitle": "Crafting bold digital experiences",
+    "seeWork": "See My Work",
+    "downloadCV": "Download CV"
+  },
+  "about": {
+    "coffee": "⚡ Turns coffee into code",
+    "dm": "🎲 Dungeon Master on weekends",
+    "brazil": "🇧🇷 Based in Brazil",
+    "spark": "🚀 Always chasing that next creative spark"
+  },
+  "footer": {
+    "line": "Let’s build something bold together 🚀"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "hero": {
+    "title": "Viktor Araujo",
+    "subtitle": "Criando experiências digitais ousadas",
+    "seeWork": "Veja Meu Trabalho",
+    "downloadCV": "Baixar CV"
+  },
+  "about": {
+    "coffee": "⚡ Transforma café em código",
+    "dm": "🎲 Mestre de RPG nos fins de semana",
+    "brazil": "🇧🇷 Mora no Brasil",
+    "spark": "🚀 Sempre buscando a próxima faísca criativa"
+  },
+  "footer": {
+    "line": "Vamos construir algo ousado juntos 🚀"
+  }
+}
