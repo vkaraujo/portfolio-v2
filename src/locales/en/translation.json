@@ -1,17 +1,57 @@
 {
   "hero": {
-    "title": "Viktor Araujo",
-    "subtitle": "Crafting bold digital experiences",
+    "title": "Crafting bold digital experiences",
+    "greeting": "Hello, World!",
     "seeWork": "See My Work",
     "downloadCV": "Download CV"
   },
+  "services": {
+    "heading": "What I Can Build For You",
+    "items": [
+      {
+        "title": "Web Applications",
+        "desc": "Full-featured apps tailored to your business."
+      },
+      {
+        "title": "Landing Pages",
+        "desc": "Fast, eye-catching pages to showcase offers."
+      },
+      {
+        "title": "E-Commerce Integrations",
+        "desc": "Payments & online stores that convert."
+      },
+      {
+        "title": "API Integrations",
+        "desc": "Connect services like CRMs, payments & more."
+      },
+      {
+        "title": "Interactive UI & UX",
+        "desc": "Engaging experiences that keep users hooked."
+      },
+      {
+        "title": "Performance & SEO",
+        "desc": "Fast-loading, optimized sites that rank."
+      },
+      {
+        "title": "Dashboards & Reports",
+        "desc": "Visualize data to make smart decisions."
+      },
+      {
+        "title": "Technical Consulting",
+        "desc": "Help planning or upgrading your tech stack."
+      }
+    ]
+  },
   "about": {
-    "coffee": "⚡ Turns coffee into code",
-    "dm": "🎲 Dungeon Master on weekends",
-    "brazil": "🇧🇷 Based in Brazil",
-    "spark": "🚀 Always chasing that next creative spark"
+    "facts": [
+      "⚡ Turns coffee into code",
+      "🎲 Dungeon Master on weekends",
+      "🇧🇷 Based in Brazil",
+      "🚀 Always chasing that next creative spark"
+    ],
+    "bio": "I started out learning to build robust web applications with <strong>Ruby on Rails</strong> and <strong>PostgreSQL</strong>, adding <strong>Hotwire</strong> and <strong>Tailwind</strong> for a responsive, dynamic experience. Over time, I dove into <strong>React</strong> and <strong>Vite</strong> to craft rich front-end interactions, explored <strong>Elixir + Phoenix LiveView</strong> to understand real-time systems, and wrote detailed technical documentation to keep projects clear and maintainable. Whether it’s integrating payments with <strong>Safe2Pay</strong>, working with APIs like <strong>TMDB</strong> and <strong>OpenWeather</strong>, or building tools for <strong>Dungeons & Dragons</strong> campaigns, I love combining clean code with engaging user experiences."
   },
   "footer": {
-    "line": "Let’s build something bold together 🚀"
+    "cta": "Let’s build something bold together!"
   }
 }

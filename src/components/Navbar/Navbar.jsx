@@ -21,7 +21,7 @@ const Navbar = () => {
     `}>
       <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
         <div className="text-2xl font-bold tracking-wider">
-          Viktor Araujo
+          Viktor Waissmann
         </div>
         <div className="flex space-x-6 items-center">
           <a href="#portfolio" className="hover:underline underline-offset-4 decoration-cyan-400">Portfolio</a>

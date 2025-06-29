@@ -59,8 +59,8 @@ const Portfolio = () => {
 
   return (
     <section id="portfolio" className="py-16">
-      <h2 className="text-3xl font-bold mb-12 text-center">Portfolio</h2>
-      <div className="flex justify-center items-center space-x-[-4rem]">
+      <h2 className="font-heading text-3xl font-bold mb-12 text-center">Projects</h2>
+      <div className="font-sans flex justify-center items-center space-x-[-4rem]">
         {projects.map((project, idx) => (
           <Card
             key={idx}

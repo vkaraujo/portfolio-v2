@@ -1,17 +1,57 @@
 {
   "hero": {
-    "title": "Viktor Araujo",
-    "subtitle": "Criando experiências digitais ousadas",
+    "title": "Criando experiências digitais ousadas",
+    "greeting": "Olá, Mundo!",
     "seeWork": "Veja Meu Trabalho",
     "downloadCV": "Baixar CV"
   },
+  "services": {
+    "heading": "O Que Posso Criar Para Você",
+    "items": [
+      {
+        "title": "Aplicações Web",
+        "desc": "Sistemas completos feitos sob medida para o seu negócio."
+      },
+      {
+        "title": "Landing Pages",
+        "desc": "Páginas rápidas e chamativas para apresentar ofertas."
+      },
+      {
+        "title": "Integrações E-Commerce",
+        "desc": "Pagamentos e lojas online que convertem."
+      },
+      {
+        "title": "Integrações API",
+        "desc": "Conecte CRMs, gateways de pagamento e outros serviços."
+      },
+      {
+        "title": "UI & UX Interativas",
+        "desc": "Experiências envolventes que prendem o usuário."
+      },
+      {
+        "title": "Performance & SEO",
+        "desc": "Sites rápidos, otimizados e que ranqueiam bem."
+      },
+      {
+        "title": "Dashboards & Relatórios",
+        "desc": "Visualize dados para decisões mais inteligentes."
+      },
+      {
+        "title": "Consultoria Técnica",
+        "desc": "Ajuda para planejar ou evoluir sua stack de tecnologia."
+      }
+    ]
+  },
   "about": {
-    "coffee": "⚡ Transforma café em código",
-    "dm": "🎲 Mestre de RPG nos fins de semana",
-    "brazil": "🇧🇷 Mora no Brasil",
-    "spark": "🚀 Sempre buscando a próxima faísca criativa"
+    "facts": [
+      "⚡ Transforma café em código",
+      "🎲 Mestre de RPG nos finais de semana",
+      "🇧🇷 Morando no Brasil",
+      "🚀 Sempre atrás da próxima faísca criativa"
+    ],
+    "bio": "Comecei aprendendo a criar aplicações web robustas com <strong>Ruby on Rails</strong> e <strong>PostgreSQL</strong>, adicionando <strong>Hotwire</strong> e <strong>Tailwind</strong> para uma experiência responsiva e dinâmica. Com o tempo, mergulhei em <strong>React</strong> e <strong>Vite</strong> para construir interfaces ricas, explorei <strong>Elixir + Phoenix LiveView</strong> para entender sistemas em tempo real e escrevi documentação técnica detalhada para manter os projetos claros e sustentáveis. Seja integrando pagamentos com <strong>Safe2Pay</strong>, trabalhando com APIs como <strong>TMDB</strong> e <strong>OpenWeather</strong>, ou criando ferramentas para <strong>Dungeons & Dragons</strong>, adoro combinar código limpo com experiências envolventes."
   },
   "footer": {
-    "line": "Vamos construir algo ousado juntos 🚀"
+    "cta": "Vamos construir algo juntos!"
   }
 }

@@ -12,19 +12,10 @@ const Hero = () => {
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
-        className="text-5xl md:text-7xl font-extrabold tracking-wider"
+        className="font-heading text-5xl md:text-7xl font-extrabold tracking-wider"
       >
         {t('hero.title')}
       </motion.h1>
-
-      <motion.p
-        initial={{ opacity: 0, y: 10 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8, delay: 0.3 }}
-        className="mt-4 text-xl md:text-2xl max-w-xl"
-      >
-        {t('hero.subtitle')}
-      </motion.p>
 
       {/* Friendly photo */}
       <motion.div
@@ -39,7 +30,7 @@ const Hero = () => {
           className="w-32 h-32 rounded-full border-4 border-cyan-400"
         />
         <span className="absolute -top-4 -right-8 bg-cyan-400 text-black px-3 py-1 rounded-full text-sm font-semibold shadow-md">
-          👋 Hey there!
+          {t('hero.greeting')}
         </span>
       </motion.div>
 
