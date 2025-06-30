@@ -1,9 +1,38 @@
 {
   "hero": {
-    "title": "Criando experiências digitais ousadas",
-    "greeting": "Olá, Mundo!",
+    "title": "Criando experiências digitais",
+    "greeting": "Seja bem-vindo!",
     "seeWork": "Veja Meu Trabalho",
     "downloadCV": "Baixar CV"
+  },
+  "portfolio": {
+    "title": "Projetos Recentes"
+  },
+  "projects": {
+    "StrayPawBridge": {
+      "summary": "Uma plataforma de adoção de pets com anúncios, adoções e moderação administrativa.",
+      "description": "StrayPawBridge é um aplicativo web full-stack para gerenciar adoções de animais resgatados. Inclui contas de usuário, solicitações de adoção, moderação de admins e um painel intuitivo para protetores e adotantes."
+    },
+    "APIpalooza": {
+      "summary": "Um festival de integrações de APIs em Rails + Hotwire.",
+      "description": "APIpalooza é um projeto divertido que integra várias APIs de terceiros em um único app Rails + Hotwire, demonstrando arquitetura limpa, service objects e atualizações interativas na UI."
+    },
+    "Dice Roller": {
+      "summary": "Dice roller Hope & Fear para Daggerheart feito com React & Framer.",
+      "description": "Um elegante dice roller digital para o TTRPG Daggerheart, usando React + Vite, animado com Framer Motion. Inclui mecânicas de vantagem/desvantagem e visuais envolventes."
+    },
+    "React Movies": {
+      "summary": "Um app React para explorar e descobrir filmes e séries.",
+      "description": "React Movies é um app rico em recursos para explorar filmes e séries, com páginas detalhadas, informações de elenco, trailers e design responsivo. Construído com a API TMDB e padrões modernos do React."
+    },
+    "cezar-grid": {
+      "summary": "Site portfolio responsivo single-page para Cezar Araujo.",
+      "description": "Um portfolio single-page profissional para Cezar Araujo, Engenheiro Eletricista. Traz grids responsivos, destaques de projetos e um design limpo adaptado à área dele."
+    },
+    "To Do List": {
+      "summary": "Uma Todo List simples e moderna feita com React + Vite.",
+      "description": "Um app Todo List minimalista e estiloso, com arquitetura React limpa, persistência local e design responsivo, construído com Vite e Tailwind."
+    }
   },
   "services": {
     "heading": "O Que Posso Criar Para Você",

@@ -1,9 +1,38 @@
 {
   "hero": {
     "title": "Crafting bold digital experiences",
-    "greeting": "Hello, World!",
+    "greeting": "Welcome!",
     "seeWork": "See My Work",
     "downloadCV": "Download CV"
+  },
+  "portfolio": {
+    "title": "Latest Works"
+  },
+  "projects": {
+    "StrayPawBridge": {
+      "summary": "A pet adoption platform with listings, adoptions, and admin moderation.",
+      "description": "StrayPawBridge is a full-stack web app for managing rescued pet adoptions. It includes user accounts, adoption requests, admin moderation, and an intuitive dashboard for rescuers and adopters."
+    },
+    "APIpalooza": {
+      "summary": "A festival of API integrations in Rails + Hotwire.",
+      "description": "APIpalooza is a playful project integrating multiple third-party APIs into a single Rails + Hotwire app, showcasing clean architecture, service objects, and interactive UI updates."
+    },
+    "Dice Roller": {
+      "summary": "Hope & Fear dice roller for Daggerheart built with React & Framer.",
+      "description": "A sleek digital dice roller for the TTRPG Daggerheart, using React + Vite, animated with Framer Motion. Includes advantage/disadvantage mechanics and engaging visuals."
+    },
+    "React Movies": {
+      "summary": "A React application to browse and discover movies and TV shows.",
+      "description": "React Movies is a feature-rich app for exploring films and TV series, complete with detailed pages, cast info, trailers, and responsive design. Built with the TMDB API and modern React patterns."
+    },
+    "cezar-grid": {
+      "summary": "Single-page responsive portfolio website for Cezar Araujo.",
+      "description": "A professional single-page portfolio for Cezar Araujo, an Electrical Engineer. Features responsive grid layouts, project highlights, and a clean design tailored to his field."
+    },
+    "To Do List": {
+      "summary": "A simple and modern Todo List built with React + Vite.",
+      "description": "A minimal yet stylish Todo List app showcasing clean React architecture, local storage persistence, and responsive design, built with Vite and Tailwind."
+    }
   },
   "services": {
     "heading": "What I Can Build For You",

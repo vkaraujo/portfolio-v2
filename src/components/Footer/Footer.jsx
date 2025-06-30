@@ -1,6 +1,6 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
-import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa'
+import { FaGithub, FaLinkedin, FaEnvelope, FaWhatsapp } from 'react-icons/fa'
 
 const Footer = () => {
   const { t } = useTranslation()
@@ -16,7 +16,7 @@ const Footer = () => {
           href="https://github.com/vkaraujo"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-cyan-400 hover:text-cyan-300 transition text-2xl hover:shadow-cyan-400"
+          className="text-[#2992C1] hover:opacity-80 transition text-2xl"
         >
           <FaGithub />
         </a>
@@ -24,15 +24,23 @@ const Footer = () => {
           href="https://linkedin.com/in/viktor-araujo"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-cyan-400 hover:text-cyan-300 transition text-2xl hover:shadow-cyan-400"
+          className="text-[#2992C1] hover:opacity-80 transition text-2xl"
         >
           <FaLinkedin />
         </a>
         <a
-          href="mailto:your-email@example.com"
-          className="text-cyan-400 hover:text-cyan-300 transition text-2xl hover:shadow-cyan-400"
+          href="mailto:vkaraujo00@gmail.com"
+          className="text-[#2992C1] hover:opacity-80 transition text-2xl"
         >
           <FaEnvelope />
+        </a>
+        <a
+          href="https://wa.me/5511999999999?text=Ol%C3%A1%2C%20Viktor!"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[#2992C1] hover:opacity-80 transition text-2xl"
+        >
+          <FaWhatsapp />
         </a>
       </div>
     </footer>

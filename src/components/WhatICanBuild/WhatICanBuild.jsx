@@ -19,14 +19,14 @@ const item = {
 }
 
 const icons = [
-  <FaLaptopCode size={40} />,
-  <FaGlobe size={40} />,
-  <FaShoppingCart size={40} />,
-  <FaServer size={40} />,
-  <FaBolt size={40} />,
-  <FaRocket size={40} />,
-  <FaChartBar size={40} />,
-  <FaPuzzlePiece size={40} />
+  <FaLaptopCode size={40} color="#2992C1" />,
+  <FaGlobe size={40} color="#2992C1" />,
+  <FaShoppingCart size={40} color="#2992C1" />,
+  <FaServer size={40} color="#2992C1" />,
+  <FaBolt size={40} color="#2992C1" />,
+  <FaRocket size={40} color="#2992C1" />,
+  <FaChartBar size={40} color="#2992C1" />,
+  <FaPuzzlePiece size={40} color="#2992C1" />
 ]
 
 const WhatICanBuild = () => {
@@ -34,9 +34,12 @@ const WhatICanBuild = () => {
 
   return (
     <section id="services" className="py-20 px-4 max-w-7xl mx-auto">
-      <h2 className="font-heading text-3xl font-bold mb-12 text-center">
-        {t('services.heading')}
-      </h2>
+      <div className="flex items-center mb-12 gap-x-4">
+        <h2 className="font-heading text-3xl font-bold whitespace-nowrap text-amber-400">
+          {t('services.heading')}
+        </h2>
+        <div className="flex-1 h-px [background-color:#2992C1]"></div>
+      </div>
       <motion.div
         className="font-sans grid grid-cols-1 md:grid-cols-4 gap-8"
         variants={container}

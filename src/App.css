@@ -29,3 +29,15 @@
   --font-sans: "Inter", sans-serif;
   --font-heading: "Oswald", sans-serif;
 }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
+
+body, p, li, span, div {
+  font-family: var(--font-sans);
+}
+
+html {
+  scroll-behavior: smooth;
+}

@@ -16,7 +16,7 @@ const AboutMe = () => {
         <motion.img
           src="/my-photo.jpeg"
           alt="Viktor Araujo"
-          className="w-60 h-60 object-cover border-4 border-cyan-400 shadow-lg"
+          className="w-60 h-60 object-cover border-4 border-[#2992C1] shadow-lg"
           initial={{ opacity: 0, x: -50 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true, amount: 0.4 }}
@@ -46,7 +46,7 @@ const AboutMe = () => {
         viewport={{ once: true, amount: 0.4 }}
         transition={{ duration: 0.6 }}
       >
-        <Trans i18nKey="about.bio" components={{ strong: <span className="font-sans font-bold text-cyan-400" /> }} />
+        <Trans i18nKey="about.bio" components={{ strong: <span className="font-sans font-bold text-[#2992C1]" /> }} />
       </motion.p>
     </section>
   )
