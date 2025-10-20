@@ -35,7 +35,7 @@ const Footer = () => {
           <FaEnvelope />
         </a>
         <a
-          href="https://wa.me/5511999999999?text=Ol%C3%A1%2C%20Viktor!"
+          href="https://wa.me/5521993244202?text=Ol%C3%A1%2C%20Viktor!"
           target="_blank"
           rel="noopener noreferrer"
           className="text-[#2992C1] hover:opacity-80 transition text-2xl"

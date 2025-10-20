@@ -5,7 +5,7 @@ export const projects = [
     screenshots: ["/StrayPawBridge/StrayPawBridge.png", "/StrayPawBridge/StrayAdmin.png", "/StrayPawBridge/StrayChat.png", "/StrayPawBridge/StrayLog.png", "/StrayPawBridge/StrayPets.png", "/StrayPawBridge/StrayRegisterPet.png"],
     summary: "A pet adoption platform with listings, adoptions, and admin moderation.",
     tech: ["Ruby on Rails", "PostgreSQL", "Tailwind CSS", "Hotwire", "Sidekiq"],
-    live: "#",
+    live: "https://github.com/vkaraujo/stray_paw_bridge",
     github: "https://github.com/vkaraujo/stray_paw_bridge"
   },
   {
