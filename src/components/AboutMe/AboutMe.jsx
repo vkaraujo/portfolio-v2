@@ -40,13 +40,13 @@ const AboutMe = () => {
 
       {/* Bio paragraph BELOW */}
       <motion.p
-        className="max-w-3xl text-center text-gray-300 leading-relaxed"
+        className="max-w-3xl text-left text-gray-300 leading-relaxed"
         initial={{ opacity: 0, y: 20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, amount: 0.4 }}
         transition={{ duration: 0.6 }}
       >
-        <Trans i18nKey="about.bio" components={{ strong: <span className="font-sans font-bold text-[#2992C1]" /> }} />
+        <Trans i18nKey="about.bio" components={{ strong: <span className="font-sans font-bold text-cyan-400" /> }} />
       </motion.p>
     </section>
   )
